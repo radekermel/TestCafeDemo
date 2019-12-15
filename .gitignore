@@ -1,0 +1,5 @@
+/screenshots/
+/yarn.lock
+/package-lock.json
+/tests/reports/report.xml
+/node_modules/

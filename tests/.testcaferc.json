@@ -1,0 +1,25 @@
+{
+  "speed": 1,
+  "browsers": [
+    "chrome:headless",
+    "firefox:headless"
+  ],
+  "concurrency": 2,
+  "reporters": [
+    "my-reporter"
+  ],
+  "screenshots": {
+    "path": "./screenshots/",
+    "takeOnFails": true,
+    "fullPage": true
+  },
+  "reporter": [
+    {
+      "name": "spec"
+    },
+    {
+      "name": "xunit",
+      "output": "reports/report.xml"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "TestCafePOC",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Radek",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "testcafe": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp-testcafe": "^1.0.1"
+  }
+}
